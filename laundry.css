@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body {
+    min-height: 100vh;
+    color: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+}
+
+@media (min-width:768px) {
+    .wrapper {
+        height: 44rem;
+        width: 22rem;
+        border: 5px solid #2e2e2e;
+        border-radius: 10px;
+        background-color: aliceblue;
+        padding: 0px 10px;
+    }
+
+    .status-bar {
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-img {
+        background-color: white;
+        padding: 10px 10px 30px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .main-img img {
+        width: 18rem;
+    }
+
+    .options {
+        background-color: #80A9F5;
+        margin-top: 20px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .options button {
+        background-color: #80A9F5;
+        border: none;
+        padding: 14px;
+        border-radius: 20px;
+        color: white;
+    }
+    .options button:hover{
+        background-color: #FDC406;
+        cursor: pointer;
+    }
+
+    .pack{
+        margin-top: 20px;
+    }
+    .pack h5{
+        margin-left: 15px;
+        margin-top: 12.5px;
+    }
+    .pack p{
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    .coat{
+        display: flex;
+        background-color: #FFFFFF;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        justify-content: space-between;
+        padding: 5px;
+        align-items: center;
+    }
+    .coat1{
+        display: flex;
+    }
+    .hoodie{
+        display: flex;
+        background-color: #FFFFFF;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+    .hoodie1{
+        display: flex;
+    }
+    .blazer{
+        display: flex;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+    .blazer1{
+        display: flex;
+    }
+    .checkout{
+        margin-top: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        
+    }
+    .checkout a{
+        background-color: #4779EE;
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .checkout button{
+        color: white;
+        background-color: #4779EE;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .footer{
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+
